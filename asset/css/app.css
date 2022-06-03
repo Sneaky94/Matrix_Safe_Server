@@ -25,7 +25,7 @@ h1{
     background-size: cover;
 }
 textarea{
-    width: 1000px;
+    width: 90%;
     min-height: 500px;
     color: green;
     background-color: black;
@@ -72,6 +72,5 @@ button{
 .compteur{
     color: greenyellow;
 }
-
 
 

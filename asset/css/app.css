@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"matrix.ttf" ;
+    src: url(/asset/font/matrix.ttf);
+}
 *{
     box-sizing: border-box;
     outline: none;
@@ -11,8 +15,10 @@ body {
     font-size: 100%;
 }
 h1{
+    padding: 10px 0px;
     color: greenyellow;
     margin: 0;
+    font-family:"matrix.ttf" ;
 }
 .contenu{
     width: 100%;
@@ -43,6 +49,8 @@ button{
     background-color: black;
     color: greenyellow;
     border: solid 2px greenyellow;
+    font-family:"matrix.ttf" ;
+    font-size: 20px;
 }
 .notif-error {
     width: 90%;

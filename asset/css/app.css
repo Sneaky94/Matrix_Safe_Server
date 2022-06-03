@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    outline: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 100%;
+}
+h1{
+    color: greenyellow;
+    margin: 0;
+}
+.contenu{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: url(../img/bg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+textarea{
+    width: 1000px;
+    min-height: 500px;
+    color: green;
+    background-color: black;
+    border: solid 2px greenyellow;
+    font-size: 22px;
+}
+.leBtn{
+
+    align-items: center;
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: greenyellow;
+    border: solid 2px greenyellow;
+}
+.notif-error {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: red;
+    background: pink;
+    border: 1px solid red;
+}
+
+.notif-success {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: green;
+    background: lightgreen;
+    border:1px solid green;
+}
+
+.d-none {
+    display: none;
+}
+.compteur{
+    color: greenyellow;
+}
+
+
+

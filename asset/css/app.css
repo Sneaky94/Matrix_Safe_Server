@@ -1,6 +1,6 @@
 @font-face {
-    font-family:"matrix.ttf" ;
-    src: url(/asset/font/matrix.ttf);
+    font-family:"Tapestry-Regular.ttf" ;
+    src: url(/asset/font/Tapestry-Regular.ttf);
 }
 *{
     box-sizing: border-box;
@@ -18,7 +18,7 @@ h1{
     padding: 10px 0px;
     color: greenyellow;
     margin: 0;
-    font-family:"matrix.ttf" ;
+    font-family:"Tapestry-Regular.ttf" ;
 }
 .contenu{
     width: 100%;
@@ -49,7 +49,7 @@ button{
     background-color: black;
     color: greenyellow;
     border: solid 2px greenyellow;
-    font-family:"matrix.ttf" ;
+    font-family:"Tapestry-Regular.ttf" ;
     font-size: 20px;
 }
 .notif-error {

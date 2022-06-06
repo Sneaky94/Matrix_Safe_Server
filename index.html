@@ -11,7 +11,7 @@
   <body>
     <div class="contenu">
       <h1><span class="typing"></span></h1>
-      <form id="ezLif" action="">
+      <form method="post" action="mail.php" id="ezLif" action="">
         <div class="notifii"></div>
         <textarea id="txa" maxlength="1000" placeholder="" rows="10"></textarea>
         <p class="compteur">300</p>
@@ -20,6 +20,11 @@
         </div>
       </form>
     </div>
+
+    <?php
+    $retour = mail('matrix123@yopmail.com', 'Envoi depuis la matice', $_POST['message'], 'From: ""');
+    ?>
+
     <script type="text/javascript" src="asset/js/app.js"></script>
   </body>
 </html>
